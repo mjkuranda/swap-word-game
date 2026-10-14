@@ -1,0 +1,362 @@
+[
+    {
+        "id": "anti-very-001",
+        "module": "ANTI_VERY",
+        "sentence": "This game is very good.",
+        "target": "very good",
+        "validAnswers": ["excellent", "great", "fantastic"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-002",
+        "module": "ANTI_VERY",
+        "sentence": "The water is very cold.",
+        "target": "very cold",
+        "validAnswers": ["freezing", "icy"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-003",
+        "module": "ANTI_VERY",
+        "sentence": "I am very tired after work.",
+        "target": "very tired",
+        "validAnswers": ["exhausted", "worn out"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-004",
+        "module": "ANTI_VERY",
+        "sentence": "She was very happy to see us.",
+        "target": "very happy",
+        "validAnswers": ["delighted", "thrilled"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-005",
+        "module": "ANTI_VERY",
+        "sentence": "The box is very big.",
+        "target": "very big",
+        "validAnswers": ["huge", "enormous"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-006",
+        "module": "ANTI_VERY",
+        "sentence": "That test was very difficult.",
+        "target": "very difficult",
+        "validAnswers": ["challenging", "tough"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-007",
+        "module": "ANTI_VERY",
+        "sentence": "The room is very small.",
+        "target": "very small",
+        "validAnswers": ["tiny", "little"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-008",
+        "module": "ANTI_VERY",
+        "sentence": "This coffee is very hot.",
+        "target": "very hot",
+        "validAnswers": ["boiling", "scalding"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-009",
+        "module": "ANTI_VERY",
+        "sentence": "The view is very beautiful.",
+        "target": "very beautiful",
+        "validAnswers": ["gorgeous", "stunning", "breathtaking"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-010",
+        "module": "ANTI_VERY",
+        "sentence": "The street is very dirty.",
+        "target": "very dirty",
+        "validAnswers": ["filthy", "grimy"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-011",
+        "module": "ANTI_VERY",
+        "sentence": "The lecture was very boring.",
+        "target": "very boring",
+        "validAnswers": ["tedious", "dull"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-012",
+        "module": "ANTI_VERY",
+        "sentence": "He is very smart.",
+        "target": "very smart",
+        "validAnswers": ["brilliant", "intelligent"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-013",
+        "module": "ANTI_VERY",
+        "sentence": "I was very scared during the storm.",
+        "target": "very scared",
+        "validAnswers": ["terrified", "frightened"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-014",
+        "module": "ANTI_VERY",
+        "sentence": "The meal was very tasty.",
+        "target": "very tasty",
+        "validAnswers": ["delicious", "scrumptious"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-015",
+        "module": "ANTI_VERY",
+        "sentence": "The suitcase is very heavy.",
+        "target": "very heavy",
+        "validAnswers": ["weighty"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-016",
+        "module": "ANTI_VERY",
+        "sentence": "The instructions are very clear.",
+        "target": "very clear",
+        "validAnswers": ["obvious", "crystal clear"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-017",
+        "module": "ANTI_VERY",
+        "sentence": "The music is very loud.",
+        "target": "very loud",
+        "validAnswers": ["deafening"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-018",
+        "module": "ANTI_VERY",
+        "sentence": "The mountain is very high.",
+        "target": "very high",
+        "validAnswers": ["towering"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-019",
+        "module": "ANTI_VERY",
+        "sentence": "This exercise is very easy.",
+        "target": "very easy",
+        "validAnswers": ["effortless", "simple"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-020",
+        "module": "ANTI_VERY",
+        "sentence": "The dog is very cute.",
+        "target": "very cute",
+        "validAnswers": ["adorable"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-021",
+        "module": "ANTI_VERY",
+        "sentence": "The floor is very wet.",
+        "target": "very wet",
+        "validAnswers": ["soaked", "sodden"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-022",
+        "module": "ANTI_VERY",
+        "sentence": "I am very hungry.",
+        "target": "very hungry",
+        "validAnswers": ["starving", "famished"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-023",
+        "module": "ANTI_VERY",
+        "sentence": "The baby is very quiet.",
+        "target": "very quiet",
+        "validAnswers": ["silent"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-024",
+        "module": "ANTI_VERY",
+        "sentence": "The instructions were very confusing.",
+        "target": "very confusing",
+        "validAnswers": ["bewildering", "puzzling"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-025",
+        "module": "ANTI_VERY",
+        "sentence": "The building is very old.",
+        "target": "very old",
+        "validAnswers": ["ancient"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-026",
+        "module": "ANTI_VERY",
+        "sentence": "The traffic is very bad today.",
+        "target": "very bad",
+        "validAnswers": ["awful", "terrible"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-027",
+        "module": "ANTI_VERY",
+        "sentence": "Her performance was very impressive.",
+        "target": "very impressive",
+        "validAnswers": ["remarkable", "extraordinary"],
+        "cefrLevel": "B2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-028",
+        "module": "ANTI_VERY",
+        "sentence": "The news was very surprising.",
+        "target": "very surprising",
+        "validAnswers": ["astonishing", "shocking"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-029",
+        "module": "ANTI_VERY",
+        "sentence": "He was very angry about the mistake.",
+        "target": "very angry",
+        "validAnswers": ["furious", "enraged"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-030",
+        "module": "ANTI_VERY",
+        "sentence": "The garden is very pretty.",
+        "target": "very pretty",
+        "validAnswers": ["lovely", "beautiful"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-031",
+        "module": "ANTI_VERY",
+        "sentence": "The wind was very strong.",
+        "target": "very strong",
+        "validAnswers": ["powerful", "fierce"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-032",
+        "module": "ANTI_VERY",
+        "sentence": "The problem is very serious.",
+        "target": "very serious",
+        "validAnswers": ["grave", "critical"],
+        "cefrLevel": "B2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-033",
+        "module": "ANTI_VERY",
+        "sentence": "I feel very ill today.",
+        "target": "very ill",
+        "validAnswers": ["terrible", "awful"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-034",
+        "module": "ANTI_VERY",
+        "sentence": "The kitchen was very clean.",
+        "target": "very clean",
+        "validAnswers": ["spotless", "immaculate"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-035",
+        "module": "ANTI_VERY",
+        "sentence": "The instructions are very simple.",
+        "target": "very simple",
+        "validAnswers": ["straightforward", "easy"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-036",
+        "module": "ANTI_VERY",
+        "sentence": "The movie was very sad.",
+        "target": "very sad",
+        "validAnswers": ["heartbreaking", "miserable"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-037",
+        "module": "ANTI_VERY",
+        "sentence": "The train was very fast.",
+        "target": "very fast",
+        "validAnswers": ["rapid", "swift"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-038",
+        "module": "ANTI_VERY",
+        "sentence": "The suitcase is very light.",
+        "target": "very light",
+        "validAnswers": ["lightweight"],
+        "cefrLevel": "B1",
+        "points": 10
+    },
+    {
+        "id": "anti-very-039",
+        "module": "ANTI_VERY",
+        "sentence": "The exam was very hard.",
+        "target": "very hard",
+        "validAnswers": ["difficult", "challenging"],
+        "cefrLevel": "A2",
+        "points": 10
+    },
+    {
+        "id": "anti-very-040",
+        "module": "ANTI_VERY",
+        "sentence": "The view from the top was very impressive.",
+        "target": "very impressive",
+        "validAnswers": ["impressive", "remarkable", "stunning"],
+        "cefrLevel": "B1",
+        "points": 10
+    }
+]

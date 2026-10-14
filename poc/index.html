@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#f8fafc" />
+        <meta
+            name="description"
+            content="SwapWord — upgrade your English, one word at a time."
+        />
+        <title>SwapWord — Anti-VERY Challenge</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script type="module" src="./app.mjs"></script>
+    </head>
+    <body>
+        <main class="app-shell">
+            <header class="topbar">
+                <a class="brand" href="./" aria-label="SwapWord home"
+                    ><img
+                        class="brand-mark"
+                        src="./swapword-icon.png"
+                        alt=""
+                    /><span>SwapWord</span></a
+                >
+            </header>
+
+            <section id="start-screen" class="screen start-screen">
+                <div class="eyebrow">THE 60-SECOND CHALLENGE</div>
+                <h1>Say it <span class="text-accent">better.</span></h1>
+                <p class="intro">
+                    Replace <strong>very + adjective</strong> with one stronger
+                    word. Think fast, build your vocabulary, and see how many
+                    you can get right.
+                </p>
+                <div class="preview-card">
+                    <div class="preview-label">EXAMPLE SWAP</div>
+                    <p class="sentence preview-sentence">
+                        This game is <span class="target-word">very good</span>.
+                    </p>
+                    <div class="example-answer">
+                        <span class="example-arrow">↳</span
+                        ><span>This game is <strong>excellent</strong>.</span
+                        ><span class="example-check">✓</span>
+                    </div>
+                </div>
+                <div class="start-meta">
+                    <div>
+                        <span class="meta-icon">◷</span
+                        ><span
+                            ><strong>60 seconds</strong
+                            ><small>One minute. Go!</small></span
+                        >
+                    </div>
+                    <div>
+                        <span class="meta-icon">↗</span
+                        ><span
+                            ><strong>10 points</strong
+                            ><small>Per correct swap</small></span
+                        >
+                    </div>
+                </div>
+                <button
+                    id="start-button"
+                    class="button button-primary button-large"
+                >
+                    Start challenge <span aria-hidden="true">→</span>
+                </button>
+                <p class="fine-print">
+                    No sign-up. Just you and your vocabulary.
+                </p>
+            </section>
+
+            <section id="game-screen" class="screen game-screen" hidden>
+                <div class="game-status">
+                    <div class="round-label">
+                        <span class="live-dot"></span
+                        ><span>CHALLENGE IN PROGRESS</span>
+                    </div>
+                    <div class="timer" id="timer" aria-label="Time remaining">
+                        <span class="hourglass" aria-hidden="true">⌛</span
+                        ><span id="time-text">01:00</span>
+                    </div>
+                </div>
+                <div class="time-track" aria-label="Time remaining">
+                    <div id="time-bar" class="time-bar"></div>
+                </div>
+
+                <div class="game-heading">
+                    <div class="eyebrow">
+                        ANTI-VERY <span class="eyebrow-divider">/</span> WORD
+                        UPGRADE
+                    </div>
+                    <h1>Make it <span class="text-accent">stronger.</span></h1>
+                    <p>Replace the highlighted words with one stronger word.</p>
+                </div>
+
+                <form
+                    id="answer-form"
+                    class="challenge-card"
+                    autocomplete="off"
+                >
+                    <div class="task-topline">
+                        <span>REWRITE THE SENTENCE</span
+                        ><span id="task-counter">TASK 01</span>
+                    </div>
+                    <p id="sentence" class="sentence"></p>
+                    <label class="sr-only" for="answer-input"
+                        >Your replacement word</label
+                    >
+                    <input
+                        id="answer-input"
+                        name="answer"
+                        type="text"
+                        placeholder="Type your word..."
+                        autocapitalize="none"
+                        spellcheck="false"
+                        autocomplete="off"
+                    />
+                    <p id="feedback" class="feedback" aria-live="polite"></p>
+                    <button
+                        id="submit-button"
+                        class="button button-primary"
+                        type="submit"
+                    >
+                        Check answer <span aria-hidden="true">↗</span>
+                    </button>
+                    <p id="keyboard-hint" class="keyboard-hint">
+                        Press <kbd>ENTER ↵</kbd> to check your answer
+                    </p>
+                </form>
+
+                <div class="game-footer">
+                    <div>
+                        <span class="footer-label">CORRECT SWAPS</span
+                        ><strong id="correct-count">0</strong>
+                    </div>
+                    <div>
+                        <span class="footer-label">SCORE</span
+                        ><strong
+                            ><span id="score-count">0</span
+                            ><small> pts</small></strong
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section id="result-screen" class="screen result-screen" hidden>
+                <div class="result-brand">
+                    <img src="./swapword-icon.png" alt="SwapWord" />
+                </div>
+                <div class="eyebrow">CHALLENGE COMPLETE</div>
+                <h1 id="result-title">Nicely done.</h1>
+                <p id="result-subtitle" class="intro">
+                    One minute of vocabulary power.
+                </p>
+                <div class="result-card">
+                    <span class="result-label">YOUR SCORE</span>
+                    <div class="result-score">
+                        <span id="final-score">0</span><small>pts</small>
+                    </div>
+                    <div class="result-divider"></div>
+                    <div class="result-stat">
+                        <span>Correct swaps</span
+                        ><strong id="final-correct">0</strong>
+                    </div>
+                    <div class="result-stat">
+                        <span>Tasks attempted</span
+                        ><strong id="final-attempted">0</strong>
+                    </div>
+                </div>
+                <section
+                    class="review-section"
+                    aria-labelledby="review-heading"
+                >
+                    <h2 id="review-heading">Your answers</h2>
+                    <p class="review-intro">
+                        Review what you typed and all accepted alternatives.
+                    </p>
+                    <div id="answer-review" class="answer-review"></div>
+                </section>
+                <button
+                    id="play-again-button"
+                    class="button button-primary button-large"
+                >
+                    Play again <span aria-hidden="true">↻</span>
+                </button>
+                <p class="fine-print">Every word counts. Keep going.</p>
+            </section>
+
+            <footer class="site-footer">
+                <span>SWAPWORD</span><span>Small swaps. Stronger English.</span>
+            </footer>
+        </main>
+    </body>
+</html>
